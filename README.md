@@ -2,6 +2,8 @@
 
 **This is a fork of the unmaintained [vscode-alternate-file](https://github.com/alternate-file/vscode-alternate-file) which stopped working when their [vscode dependency fell too far out of date](https://github.com/alternate-file/vscode-alternate-file/pull/27)**
 
+Go install it on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=testdouble.vscode-alternate-alternate-file)
+
 In Vim, you can often go to the "alternate file" for the active buffer - usually the spec file for an implementation, or vice versa - by pressing `:A`. This extension adds that functionality to VS Code.
 
 VSCode-Alternate-File reads a config file based on the `.projections.json` file from [Tim Pope's Projectionist](https://github.com/tpope/vim-projectionist). This lets you specify where the spec files for different types of files in your project are set up. One you add a `.projections.json` (and reload your editor), you can then jump between an implementation and spec file, and optionally create empty files if they don't exist.
