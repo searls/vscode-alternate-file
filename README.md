@@ -42,8 +42,6 @@ If your paths have more than two variable parts, that can work too! You can use 
 
 If your project is inconsistent about where specs go (it happens to the best of us), you can also pass an array to `alternate`. The extension will look for a file matching the first alternate, then the second, and so on. When you create an alternate file, it will always follow the first pattern.
 
-Note that this isn't part of the original `projectionist` spec, but it's sometimes handy.
-
 ### Examples
 
 ```js
